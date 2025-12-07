@@ -123,7 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameRules.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SaveManager.cpp" />
+    <ClCompile Include="SaveManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="game_rules.txt" />
+    <Text Include="game_save.txt" />
+    <Text Include="save.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameRules.hpp" />
+    <ClInclude Include="GameState.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

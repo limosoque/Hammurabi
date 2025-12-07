@@ -1,0 +1,6 @@
+year=10
+population=52
+wheat=4587
+city_size=1050
+deaths=0
+newcomers=8
